@@ -21,8 +21,13 @@ const pool = new pg.Pool({
     password: 'Benson6969$',
     port: 5432, // default PostgreSQL port
 });
+
 //Open Database bd connection 
 pool.connect();
+
+app.get("/", (req, res) => {
+  res.send("Welcome to the School Management System API");
+}); 
 
 //create listener
 app.listen(port, () => {
