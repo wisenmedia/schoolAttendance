@@ -26,8 +26,11 @@ const pool = new pg.Pool({
 pool.connect();
 
 app.get("/", (req, res) => {
-  res.send("Welcome to the School Management System API");
+  res.send("<h1>Welcome to the School Management System API</h1>");
 }); 
+app.get("/About", (req, res) => {
+  res.send("<h2>About the School Management System</h2>");
+});
 
 //create listener
 app.listen(port, () => {
