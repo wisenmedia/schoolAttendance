@@ -20,7 +20,7 @@ main {
   flex: 1 0 auto;
 }
 
-h1 {
+h1, h2 {
   text-align: center;
   padding: 20px 0 20px 0;
   color:#3586ff;
@@ -31,7 +31,8 @@ h1 {
   justify-content: center;
   gap: 22px;
   margin-bottom: 20px;
-  border: #3586ff solid 2px;
+  border: #3586ff none 2px;
+  border-radius: 20px;
   padding: 22px;
   background: rgba(53, 134, 255, 0.08);
 }
@@ -59,50 +60,77 @@ img {
   object-fit: cover;
   border-radius: 50%;
 }
-form {
-  margin-top: 50px;
+.contact-card {
+  margin: 30px auto 50px;
+  max-width: 560px;
+  padding: 36px 36px 30px;
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 28px;
+  box-shadow: 0 24px 60px rgba(18, 47, 93, 0.14);
+  border: 1px solid rgba(53, 134, 255, 0.14);
+}
+
+.contact-card-copy {
+  margin: 0 0 28px;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #4d5b79;
+  text-align: center;
+}
+
+.contact-form {
+  margin: 0;
 }
 
 .feedback-input {
-  color: white;
+  color: #102144;
   font-weight: 500;
-  font-size: 18px;
-  border-radius: 5px;
-  line-height: 22px;
-  background-color: transparent;
-  border: 2px solid #3586ff;
-  transition: all 0.3s;
-  padding: 13px;
-  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 18px;
+  line-height: 1.5;
+  background-color: #f8fbff;
+  border: 1px solid rgba(53, 134, 255, 0.3);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  padding: 16px 18px;
+  margin-bottom: 18px;
   width: 100%;
   box-sizing: border-box;
   outline: 0;
 }
 
+.feedback-input::placeholder {
+  color: #7c8ab5;
+}
+
 .feedback-input:focus {
-  border: 2px solid #3586ff;
+  border-color: #3586ff;
+  box-shadow: 0 0 0 6px rgba(53, 134, 255, 0.1);
 }
 
 textarea {
-  height: 150px;
-  line-height: 150%;
+  min-height: 160px;
+  line-height: 1.7;
   resize: vertical;
 }
 
 [type="submit"] {
   width: 100%;
-  background: #3586ff;
-  border-radius: 5px;
+  background: linear-gradient(135deg, #2f75ff 0%, #3d8dff 100%);
+  border-radius: 16px;
   border: 0;
   cursor: pointer;
   color: white;
-  font-size: 24px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  transition: all 0.3s;
-  margin-top: -4px;
+  font-size: 18px;
+  padding: 16px 0;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  margin-top: 4px;
   font-weight: 700;
+  box-shadow: 0 16px 26px rgba(47, 117, 255, 0.24);
 }
 [type="submit"]:hover {
-  background: #3586ff;
+  transform: translateY(-1px);
+  box-shadow: 0 20px 32px rgba(47, 117, 255, 0.28);
+}
+[type="submit"]:active {
+  transform: translateY(0);
 }

@@ -1,10 +1,13 @@
 <%- include("partials/header.ejs") %>
 <h1>Contact Me</h1>
-<form>
-  <input name="name" type="text" class="feedback-input" placeholder="Name" />
-  <input name="email" type="text" class="feedback-input" placeholder="Email" />
-  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-  <input type="submit" value="SUBMIT" />
-</form>
+<div class="contact-card">
+  <p class="contact-card-copy">Have a question or want to collaborate? Send a message and I’ll reply shortly.</p>
+  <form class="contact-form">
+    <input name="name" type="text" class="feedback-input" placeholder="Name" />
+    <input name="email" type="email" class="feedback-input" placeholder="Email" />
+    <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
+    <input type="submit" value="Send Message" />
+  </form>
+</div>
 
 <%- include("partials/footer.ejs") %>
