@@ -1,0 +1,55 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title2">
+  <title id="title2">Futuristic skyline with glass terraces, sky bridges and lush vegetation</title>
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#08182e"/>
+      <stop offset="50%" stop-color="#204e8e"/>
+      <stop offset="100%" stop-color="#3aa1da"/>
+    </linearGradient>
+    <linearGradient id="building2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e3f8ff"/>
+      <stop offset="100%" stop-color="#2b4f73"/>
+    </linearGradient>
+    <linearGradient id="green2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c5ffdc"/>
+      <stop offset="100%" stop-color="#186236"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky2)"/>
+  <ellipse cx="400" cy="620" rx="520" ry="100" fill="#0f2b49" opacity="0.9"/>
+  <path d="M0 340 C150 420 320 300 460 380 S820 500 1000 370" fill="#1b4e82" opacity="0.35"/>
+  <g opacity="0.9">
+    <rect x="95" y="175" width="150" height="365" rx="34" fill="url(#building2)"/>
+    <path d="M95 240 H245 V265 H95 Z" fill="#c8f3ff"/>
+    <path d="M95 330 H245 V355 H95 Z" fill="#c8f3ff"/>
+    <path d="M95 415 H245 V440 H95 Z" fill="#c8f3ff"/>
+  </g>
+  <g opacity="0.95">
+    <rect x="275" y="225" width="135" height="320" rx="28" fill="#3fb2dd"/>
+    <g fill="#ebffff" opacity="0.75">
+      <rect x="295" y="270" width="95" height="18" rx="9"/>
+      <rect x="295" y="325" width="95" height="18" rx="9"/>
+      <rect x="295" y="380" width="95" height="18" rx="9"/>
+      <rect x="295" y="435" width="95" height="18" rx="9"/>
+    </g>
+  </g>
+  <g fill="#1b5f76">
+    <rect x="455" y="195" width="120" height="360" rx="30"/>
+    <rect x="585" y="245" width="110" height="290" rx="24"/>
+  </g>
+  <g fill="url(#green2)" opacity="0.9">
+    <ellipse cx="150" cy="230" rx="68" ry="32"/>
+    <ellipse cx="345" cy="180" rx="80" ry="36"/>
+    <ellipse cx="590" cy="310" rx="84" ry="38"/>
+    <ellipse cx="620" cy="270" rx="62" ry="28"/>
+  </g>
+  <path d="M420 190 C460 170 520 170 560 190" fill="none" stroke="#9ff0d3" stroke-width="12" opacity="0.65"/>
+  <g fill="#ffffff" opacity="0.8">
+    <rect x="110" y="260" width="40" height="14" rx="7"/>
+    <rect x="120" y="300" width="30" height="12" rx="6"/>
+    <rect x="290" y="285" width="50" height="14" rx="7"/>
+    <rect x="520" y="320" width="32" height="14" rx="7"/>
+    <rect x="600" y="320" width="30" height="14" rx="7"/>
+  </g>
+  <path d="M120 525 C210 500 330 520 440 525 S650 545 720 530" fill="none" stroke="#8df6d6" stroke-width="12" opacity="0.5"/>
+</svg>

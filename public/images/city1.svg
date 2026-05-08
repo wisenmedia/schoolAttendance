@@ -1,0 +1,62 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title1">
+  <title id="title1">Realistic futuristic AI cityscape with glowing towers and vertical gardens</title>
+  <defs>
+    <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#081c42"/>
+      <stop offset="55%" stop-color="#243a7d"/>
+      <stop offset="100%" stop-color="#4c82c5"/>
+    </linearGradient>
+    <linearGradient id="tower1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8efff"/>
+      <stop offset="100%" stop-color="#2b4d78"/>
+    </linearGradient>
+    <linearGradient id="tower2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9ed8ff"/>
+      <stop offset="100%" stop-color="#235b7a"/>
+    </linearGradient>
+    <linearGradient id="green1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a6ffb8"/>
+      <stop offset="100%" stop-color="#1d5b37"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky1)"/>
+  <ellipse cx="420" cy="600" rx="520" ry="120" fill="#0e2f49" opacity="0.95"/>
+  <path d="M0 350 C180 430 360 320 520 390 S840 470 1000 360" fill="#1b5180" opacity="0.4"/>
+  <circle cx="680" cy="130" r="36" fill="#f7e16f" opacity="0.8"/>
+  <g opacity="0.85">
+    <rect x="130" y="220" width="100" height="320" rx="22" fill="url(#tower1)"/>
+    <rect x="140" y="315" width="100" height="18" rx="9" fill="#2483de"/>
+    <rect x="140" y="265" width="100" height="16" rx="8" fill="#7fd0fc"/>
+    <rect x="140" y="360" width="100" height="16" rx="8" fill="#7fd0fc"/>
+    <rect x="140" y="410" width="100" height="16" rx="8" fill="#7fd0fc"/>
+  </g>
+  <g opacity="0.92">
+    <rect x="290" y="170" width="140" height="370" rx="30" fill="url(#tower2)"/>
+    <rect x="305" y="255" width="110" height="24" rx="12" fill="#e8fbff" opacity="0.9"/>
+    <rect x="305" y="325" width="110" height="24" rx="12" fill="#d1f5ff" opacity="0.85"/>
+    <rect x="305" y="395" width="110" height="24" rx="12" fill="#d1f5ff" opacity="0.85"/>
+    <rect x="305" y="465" width="110" height="24" rx="12" fill="#d1f5ff" opacity="0.85"/>
+  </g>
+  <g>
+    <rect x="500" y="240" width="90" height="280" rx="18" fill="#145d73"/>
+    <rect x="513" y="290" width="68" height="18" rx="9" fill="#87ddf9"/>
+    <rect x="513" y="340" width="68" height="18" rx="9" fill="#87ddf9"/>
+    <rect x="513" y="390" width="68" height="18" rx="9" fill="#87ddf9"/>
+  </g>
+  <g fill="url(#green1)" opacity="0.95">
+    <ellipse cx="180" cy="205" rx="74" ry="40"/>
+    <ellipse cx="300" cy="150" rx="86" ry="42"/>
+    <ellipse cx="560" cy="215" rx="82" ry="40"/>
+    <ellipse cx="570" cy="270" rx="70" ry="32"/>
+  </g>
+  <path d="M195 215 C225 195 275 210 305 190" fill="none" stroke="#0f381d" stroke-width="12" opacity="0.45"/>
+  <g fill="#fff" opacity="0.8">
+    <rect x="160" y="240" width="32" height="14" rx="7"/>
+    <rect x="165" y="270" width="26" height="12" rx="6"/>
+    <rect x="310" y="210" width="34" height="14" rx="7"/>
+    <rect x="312" y="250" width="30" height="12" rx="6"/>
+    <rect x="520" y="300" width="22" height="12" rx="6"/>
+    <rect x="520" y="340" width="22" height="12" rx="6"/>
+  </g>
+  <path d="M110 530 C180 530 300 510 420 530 S660 560 720 540" fill="none" stroke="#7df0c2" stroke-width="10" opacity="0.55"/>
+</svg>
