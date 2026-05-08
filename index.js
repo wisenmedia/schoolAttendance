@@ -11,6 +11,7 @@ const port = 3000;
 
 //create app middleware
 app.use(bodyParser.urlencoded({ extended: true }));
+app.set("view engine", "ejs");
 app.use(express.static("public"));
 
 //create database connection
