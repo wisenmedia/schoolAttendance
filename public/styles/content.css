@@ -134,3 +134,24 @@ textarea {
 [type="submit"]:active {
   transform: translateY(0);
 }
+
+.form-response {
+  margin-bottom: 20px;
+  padding: 14px 18px;
+  border-radius: 14px;
+  font-size: 0.96rem;
+  text-align: center;
+  box-shadow: 0 14px 28px rgba(18, 47, 93, 0.08);
+}
+
+.form-response.success {
+  color: #114f22;
+  background: #e9f8ee;
+  border: 1px solid #9fddae;
+}
+
+.form-response.error {
+  color: #721c24;
+  background: #fdecea;
+  border: 1px solid #f5c6cb;
+}

@@ -2,7 +2,13 @@
 <h1>Contact Me</h1>
 <div class="contact-card">
   <p class="contact-card-copy">Have a question or want to collaborate? Send a message and I’ll reply shortly.</p>
-  <form class="contact-form">
+  <% if (typeof success !== 'undefined') { %>
+    <div class="form-response success"><%= success %></div>
+  <% } %>
+  <% if (typeof error !== 'undefined') { %>
+    <div class="form-response error"><%= error %></div>
+  <% } %>
+  <form class="contact-form" method="POST" action="/contact">
     <input name="name" type="text" class="feedback-input" placeholder="Name" />
     <input name="email" type="email" class="feedback-input" placeholder="Email" />
     <textarea name="text" class="feedback-input" placeholder="Message"></textarea>
