@@ -35,19 +35,27 @@ i {
   float: left;
 }
 #navbarSupportedContent ul li a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
   font-size: 15px;
   display: block;
   padding: 20px 20px;
-  transition-duration: 0.6s;
-  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: color 0.35s ease, background-color 0.35s ease, transform 0.35s ease, box-shadow 0.35s ease;
   position: relative;
 }
+#navbarSupportedContent ul li a:hover,
+#navbarSupportedContent ul li a:focus {
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 14px;
+  transform: translateY(-1px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
 #navbarSupportedContent > ul > li.active > a {
-  color: #3586ff;
-  background-color: transparent;
-  transition: all 0.7s;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 14px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.14);
 }
 #navbarSupportedContent a:not(:only-child):after {
   content: "\f105";
